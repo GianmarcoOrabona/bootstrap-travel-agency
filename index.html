@@ -40,7 +40,8 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search Location" aria-label="Search" />
+                        <input class="form-control me-2" type="search" placeholder="Search Location"
+                            aria-label="Search" />
                         <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                 </div>
@@ -58,7 +59,8 @@
                 <!-- Main info -->
                 <div class="w-75 text-center my-5 mx-auto">
                     <h1>Our amazing tours</h1>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dolorum aut
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime dolorum
+                        aut
                         sed nulla at in tempore aperiam voluptas? Officiis impedit eius fugiat excepturi pariatur
                         consequatur placeat aspernatur officia tempora saepe.</p>
                 </div>
@@ -77,7 +79,8 @@
                             <div class="border-top">
                                 <div class="mt-2 pb-3 text-center">
                                     <p class="fw-bold text-warning">2 days - 2 destinations</p>
-                                    <span class="text-secondary"><strong class="text-dark">350&euro;</strong>/person</span>
+                                    <span class="text-secondary"><strong
+                                            class="text-dark">350&euro;</strong>/person</span>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +91,8 @@
                             <img src="https://picsum.photos/id/15/300/300" class="card-img-top rounded-0"
                                 alt="exemple-image-2">
                             <div class="card-body p-0">
-                                <h5 class="card-title fs-4 p-3 text-light text-center bg-success">HIKE IN THE FOREST</h5>
+                                <h5 class="card-title fs-4 p-3 text-light text-center bg-success">HIKE IN THE FOREST
+                                </h5>
                                 <p class="card-text text-center p-3">Lorem ipsum, dolor sit amet consectetur adipisicing
                                     elit. Porro quidem ratione tenetur voluptatum reiciendis necessitatibus placeat
                                     accusamus</p>
@@ -96,7 +100,8 @@
                             <div class="border-top">
                                 <div class="mt-2 pb-3 text-center">
                                     <p class="fw-bold text-success">3 days - 2 destinations</p>
-                                    <span class="text-secondary"><strong class="text-dark">375&euro;</strong>/person</span>
+                                    <span class="text-secondary"><strong
+                                            class="text-dark">375&euro;</strong>/person</span>
                                 </div>
                             </div>
                         </div>
@@ -115,12 +120,85 @@
                             <div class="border-top">
                                 <div class="mt-2 pb-3 text-center">
                                     <p class="fw-bold">2 days - 1 destinations</p>
-                                    <span class="text-secondary"><strong class="text-dark">400&euro;</strong>/person</span>
+                                    <span class="text-secondary"><strong
+                                            class="text-dark">400&euro;</strong>/person</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Form section -->
+        <section class="mt-5">
+            <div class="container">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" value="John" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" value="Doe" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationCustomAddress" class="form-label">Address</label>
+                        <div class="input-group has-validation">
+                            <input type="text" class="form-control" id="validationCustomAddress"
+                                aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                                Please type your address
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Country</label>
+                        <select class="form-select" id="validationCustom04" required>
+                            <option selected disabled value="">Choose a country</option>
+                            <option>Italy</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Agree to terms and conditions
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
+                </form>
             </div>
         </section>
 
